@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordSearcher.Wpf", "Src\WordSearcher.Wpf\WordSearcher.Wpf.csproj", "{8589AA7D-9FA5-4491-824B-5073B91DD67E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordSearcher.Core", "Src\WordSearcher.Core\WordSearcher.Core.csproj", "{BABDB3DB-8A96-4483-B24D-D0131546D74A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordSearcher.Mvvm", "Src\WordSearcher.Mvvm\WordSearcher.Mvvm.csproj", "{692DF51D-98A5-48F1-B963-22195CFCB004}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{455D7668-02D9-4F61-929C-A6835BDDE6C7}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{85F2D896-A0A4-450F-B20C-80211B35CB89}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Publish", "Publish", "{B167154F-28C6-43F5-B1D9-6D2BCE844B85}"
+	ProjectSection(SolutionItems) = preProject
+		Publish\词汇检索程序V2.0.0.zip = Publish\词汇检索程序V2.0.0.zip
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8589AA7D-9FA5-4491-824B-5073B91DD67E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8589AA7D-9FA5-4491-824B-5073B91DD67E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8589AA7D-9FA5-4491-824B-5073B91DD67E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8589AA7D-9FA5-4491-824B-5073B91DD67E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BABDB3DB-8A96-4483-B24D-D0131546D74A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BABDB3DB-8A96-4483-B24D-D0131546D74A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BABDB3DB-8A96-4483-B24D-D0131546D74A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BABDB3DB-8A96-4483-B24D-D0131546D74A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{692DF51D-98A5-48F1-B963-22195CFCB004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{692DF51D-98A5-48F1-B963-22195CFCB004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{692DF51D-98A5-48F1-B963-22195CFCB004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{692DF51D-98A5-48F1-B963-22195CFCB004}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8589AA7D-9FA5-4491-824B-5073B91DD67E} = {85F2D896-A0A4-450F-B20C-80211B35CB89}
+		{BABDB3DB-8A96-4483-B24D-D0131546D74A} = {85F2D896-A0A4-450F-B20C-80211B35CB89}
+		{692DF51D-98A5-48F1-B963-22195CFCB004} = {85F2D896-A0A4-450F-B20C-80211B35CB89}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E8B04B4-10DE-4762-ABF8-408EBF8CC4DB}
+	EndGlobalSection
+EndGlobal
