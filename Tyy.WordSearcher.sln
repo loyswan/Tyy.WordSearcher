@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordSearcher.Mvvm", "Src\Wo
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{455D7668-02D9-4F61-929C-A6835BDDE6C7}"
 	ProjectSection(SolutionItems) = preProject
-		Readme.md = Readme.md
+		Docs\Readme.md = Docs\Readme.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{85F2D896-A0A4-450F-B20C-80211B35CB89}"
